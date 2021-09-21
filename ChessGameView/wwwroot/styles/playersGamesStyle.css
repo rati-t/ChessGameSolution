@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(177, 124, 9);
+}
+
+#game_logger {
+    font-size: 80px;
+    margin: auto;
+    text-align: center;
+    margin-top: 2em;
+}
+
+#games_list {
+    margin: 10px 100px;
+    height: 7em;
+    border: 1px solid black;
+    overflow-y: auto;
+}
+
+#create_game {
+    width: 12em;
+    height: 3em;
+    margin: auto;
+    margin-top: 5em;
+    margin-bottom: -3em;
+    font-size: 16px;
+}
+
+.game {
+    font-size: 17px;
+    height: 40px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.join {
+    box-shadow: black;
+    margin: 2px;
+    border: none;
+    display: inline;
+    float: right;
+    height: inherit;
+    width: 100px;
+}
+
+h1 {
+    margin-right: 70px;
+    display: inline;
+}
+
+#create_button {
+    width: inherit;
+    height: inherit;
+    border-radius: 0%;
+    background-color: #368c11;
+    font-size: 16px;
+    border: none;
+    color: white;
+    opacity: 1;
+}
+
+    #create_button:hover {
+        background-color: #1f520a;
+    }
+
+#checkboxes {
+    text-align: center;
+    margin-top: 0.5em;
+}

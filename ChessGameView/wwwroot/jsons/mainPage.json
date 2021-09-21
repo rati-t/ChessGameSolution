@@ -1,0 +1,76 @@
+{
+    "players": [
+        {
+            "playerId": "first",
+            "id": "Magnus",
+            "name": "Magnus Carlsen",
+            "fullname": "Sven Magnus Øen Carlsen",
+            "country": "Norway",
+            "born": [
+                {
+                    "year": "1990",
+                    "month": "11",
+                    "day": "30"
+                }
+            ],
+            "alive": true,
+            "age": "30",
+            "PeakRating": "2882"
+            
+        },
+        {   
+            "playerId": "second",
+            "id": "Bobby",
+            "name": "Bobby Fischer",
+            "fullname": "Robert James Fischer",
+            "country": "USA",
+            "born": [
+                {
+                    "year": "1943",
+                    "month": "5",
+                    "day": "9"
+                }
+            ],
+            "alive": false,
+            "age": "64",
+            "PeakRating": "2785"
+           
+        },
+        {
+            "playerId": "third",
+            "id": "Nona",
+            "name": "Nona Gaprindashvili",
+            "fullname": "Nona Gaprindashvili",
+            "country": "Georgia",
+            "born": [
+                {
+                    "year": "1941",
+                    "month": "3",
+                    "day": "3"
+                }
+            ],
+            "alive": true,
+            "age": "80",
+            "PeakRating": "2495"
+           
+        },
+        {
+            "playerId": "fourth",
+            "id": "Viswanathan",
+            "name": "Viswanathan Anand",
+            "fullname": "Viswanathan Anand",
+            "country": "India",
+            "born": [
+                {
+                    "year": "1969",
+                    "month": "12",
+                    "day": "11"
+                }
+            ],
+            "alive": true,
+            "age": "51",
+            "PeakRating": "2817"
+           
+        }
+    ]
+}

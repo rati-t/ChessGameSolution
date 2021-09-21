@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(177, 124, 9);
+}
+
+div {
+    top: 150px;
+    width: 400px;
+    height: 650px;
+    position: absolute;
+    border: 1px black solid;
+}
+
+div:hover {
+    width: 420px;
+    height: 670px;
+    border: 2px green solid;
+}
+div:hover img {
+    width: 420px;
+    height: 420px;
+}
+
+#first {
+    left: 20px;
+}
+
+#second {
+    left: 520px
+}
+
+#third {
+    left: 1000px; 
+}
+
+#fourth {
+    left: 1500px;
+}
+
+img {
+    border-bottom: 5px gray solid;
+    width: 400px;
+    height: 400px;
+}
+
+h1, h2, h3{
+    margin-left: 10px;
+}
+
+a {
+    position: absolute;
+    font-size: 200px;
+    color: black;
+    text-decoration: none;
+    left: 200px;
+    top: 420px;
+    cursor: cell;
+}

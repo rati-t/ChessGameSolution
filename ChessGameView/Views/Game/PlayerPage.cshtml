@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../styles/playersGamesStyle.css">
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   
+   <div id="create_game">
+        <button onclick="createGame()" id="create_button">Create Game</button>
+        <div id="checkboxes">
+            <input type="checkbox" id="White" name="White" value="White" onclick="uncheck(this.id)">
+            <label for="White">White</label>
+            <input type="checkbox" id="Black" name="Black" value="Black" onclick="uncheck(this.id)">
+            <label for="Black">Black</label>
+        </div>
+    </div>
+
+    
+    <div id="game_logger">
+        Games
+        <div id="games_list">
+           
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../scripts/playerPage/consts.js"></script>
+    <script src="../scripts/playerPage/playerPageDesktopView.js"></script>
+    <script src="../scripts/playerPage/playerPageController.js"></script>
+    <script src="../scripts/playerPage/playerPageModel.js"></script>
+    <script src="../scripts/jsonString.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../styles/boardStyle.css">
+    <meta charset="UTF-8">
+    <title>Chessboard</title>
+</head>
+<body style="background-color:gray;">
+
+    <div id="player1" class="players">
+        
+        </div>
+
+    <div id="timer1" class="timer">
+        <p id="player1_timer"></p>
+    </div>
+
+
+    <div id="revive_pieces"> 
+        <button class="revivePiece" id="Queen"><img></button>
+        <button class="revivePiece" id="Knight"><img></button>
+        <button class="revivePiece" id="Rook"><img></button>
+        <button class="revivePiece" id="Bioshop"><img></button>
+    </div>
+
+    <table id="table_wrapper" style="border-collapse: collapse; margin:auto;">
+    </table>
+
+    <div id="player2" class="players">
+        </div>
+
+    <div id="timer2" class="timer">
+        <p id="player2_timer"></p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../scripts/gamePage/consts.js"></script>
+    <script src="../scripts/jsonString.js"></script>
+    <script src="../scripts/gamePage/gamePageDesktopView.js"></script>
+    <script src="../scripts/gamePage/gamePageController.js"></script>
+    <script src="../scripts/gamePage/gamePageModel.js"></script>
+</body>
+</html>

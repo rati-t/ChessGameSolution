@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ChessGameCore": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}
